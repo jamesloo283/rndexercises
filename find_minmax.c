@@ -18,9 +18,9 @@
  * *  pstree -p `pidof find_minmax`
  *
  * 2) Customized with details
- * *  ps -L -o pid,lwp,pri,psr,nice,start,stat,bsdtime,cmd,comm -C sensormgmt
+ * *  ps -L -o pid,lwp,pri,psr,nice,start,stat,bsdtime,cmd,comm -C find_minmax
  * * A simpler customized details
- * *  ps H -C sensormgmt -o 'pid tid cmd comm'
+ * *  ps H -C find_minmax -o 'pid tid cmd comm'
  *
  * Stopping process
  * 1) kill -l: lists avilable signals on the system
